@@ -1,7 +1,7 @@
 services:
-  s3admin:  # ชื่อ Service
+  s3admin: 
     image: dpage/pgadmin4
-    container_name: 68-s3-admin  # ชื่อ Container
+    container_name: 68-s3-admin  
     environment:
       PGADMIN_DEFAULT_EMAIL: ${ADMIN_EMAIL}
       PGADMIN_DEFAULT_PASSWORD: ${ADMIN_PASSWORD}

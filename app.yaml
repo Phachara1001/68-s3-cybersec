@@ -1,0 +1,8 @@
+services:
+  s3app:  
+    build: .
+    container_name: 68-s3-app  
+    ports:
+      - ${APP_PORT}:3000
+    depends_on:
+      - s3admin 

@@ -22,8 +22,11 @@ docker compose -f db.yaml up -d #background
 ------------------------   Admin ------------------------    
 docker compose -f admin.yaml up #monitoring
 docker compose -f admin.yaml up -d #background
+------------------------   APP ------------------------    
+docker compose -f app.yaml up #monitoring
+docker compose -f app.yaml up -d #background
 ```
 
 ## Last Changed
-- 08/02/2569 | 20:23
+- 08/02/2569 | 20:40
 
