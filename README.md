@@ -18,9 +18,12 @@ cp env.simple .env
 ### Database
 ```sh
 docker compose -f db.yaml up #monitoring
-docker compose -f db.yaml up #background
+docker compose -f db.yaml up -d #background
+------------------------   Admin ------------------------    
+docker compose -f admin.yaml up #monitoring
+docker compose -f admin.yaml up -d #background
 ```
 
 ## Last Changed
-- 02/02/2569 | 15:23
+- 08/02/2569 | 20:23
 
