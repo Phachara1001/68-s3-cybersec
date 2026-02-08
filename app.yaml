@@ -1,8 +1,6 @@
 services:
   s3app:  
-    build: .
+    image: nginx:alpine  
     container_name: 68-s3-app  
     ports:
-      - ${APP_PORT}:3000
-    depends_on:
-      - s3admin 
+      - ${APP_PORT}:80
